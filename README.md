@@ -3,9 +3,9 @@
 ## CommonRefs
 
 Have you ever looked at your library of references and wondered: Have I missed an important publication on the topic?  
-Or, more specifically: What publications are most frequently cited in my references?
+Or, more specifically: What publications are most frequently cited in my references, and do I have them?
 
-**commonrefs.py** answers the question by parsing the references in your BibTeX file, looking up which papers they cite, and generating a ranking of the cited papers.
+**commonrefs.py** answers the question by parsing the references in your BibTeX file, looking up which papers they cite, generating a ranking of the cited papers, and indicating which papers you're missing.
 
 ### Dependencies
 
