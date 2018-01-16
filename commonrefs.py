@@ -3,7 +3,7 @@ import json
 import re
 import requests
 
-LIBRARY = 'library_test.bib'
+LIBRARY = 'library.bib'
 REF_URL = 'https://api.elsevier.com/content/abstract/DOI:{}?apiKey={}&view=REF'
 DOI_URL = 'https://api.elsevier.com/content/search/scopus?query=SCOPUS-ID({})&field=prism:doi'
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
         f.write('\n'.join(not_found))
 
     print('\nResults:')
-    with open('results_title.txt','w') as f:
+    with open('results.txt','w') as f:
         for i, title in enumerate(sorted(title_dict, key=title_dict.get, reverse=True)):
             line = '{} x {}'.format(title_dict[title], title)
             if simplify_title(title) not in title_list:
