@@ -16,10 +16,9 @@ def get_references(DOI):
     data = requests.get(url, headers={'Accept': 'application/json'})
     data_dict = json.loads(data.text)
     try:
-        references = data_dict['abstracts-retrieval-response']['references']['reference']
+        return = data_dict['abstracts-retrieval-response']['references']['reference']
     except:
-        references = []
-    return references
+        return = []
 
 
 def get_doi(SID):
@@ -65,7 +64,7 @@ def count_references(DOI_list):
 
 
 def simplify_title(title):
-    return re.sub('[^a-z0-9 ]+', '', title.lower())
+    return re.sub('[^a-z0-9]+', '', title.lower())
 
 
 if __name__ == "__main__":
