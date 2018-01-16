@@ -52,3 +52,4 @@ Results:
 The number at the beginning of the file indicates the number of times this publication has been cited in the references.  
 A `x` at the end of the line indicates that neither the title nor the DOI has been found in the BibTeX file.  
 A `?` at the end of the line indicates that the title has not been found in the BibTeX file and no DOI could be retrieved.
+The results are written to *results.txt*
