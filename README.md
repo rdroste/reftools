@@ -22,10 +22,10 @@ Open the command line in the repository folder and run `python3 commonrefs.py`.
 ### Output
 Example:
 ```
-Document ID (doi) found for 190 publications
+Document Object Identifier (DOI) found for 190 publications
 No references found for 49 publications (see not_found.txt file)
 
-Results:
+Writing results to results.txt:
 29 x A model of saliency-based visual attention for rapid scene analysis    ?
 24 x ImageNet classification with deep convolutional neural networks
 21 x Learning to predict where humans look
@@ -53,3 +53,29 @@ The number at the beginning of the file indicates the number of times this publi
 A `x` at the end of the line indicates that neither the title nor the DOI has been found in the BibTeX file.  
 A `?` at the end of the line indicates that the title has not been found in the BibTeX file and no DOI could be retrieved.
 The results are written to *results.txt*
+
+
+## nCitations
+
+**nCitations** allows you to quickly look up the number of citations of a paper *anywhere*!
+Simply select the title of the paper with your mouse and hit your preferred keyboard shortcut.
+
+### Dependencies
+
+Install [xclip](https://github.com/astrand/xclip) to provide access to text selection from you shell.
+For example, in Ubuntu run `sudo apt-get install xclip`.
+
+### Preparation
+
+You have to set up a keyboard shortcut to execute `sh <full path to reftools folder>/ncitations.sh`.  
+For example, in Ubuntu
+1. Go to `System Settings -> Keyboard -> Shortcuts`.
+2. Select `Custom Shortcuts`, add a new shortcut by clicking `+`, choose a name of your liking and enter the command from above.
+3. Click on `Deactivated` on the right of your newly created shortcut and hit your preferred keyboard combination (e.g. `Alt + N`)
+
+### Usage
+
+Select the paper title anywhere (e.g. in a pdf document, in your browser, etc.), hit your keyboard shortcut and get the number of citations ion a pop-up window.
+
+### Result
+<img src="https://i.imgur.com/ns2OF7Q.png" width="40%">
