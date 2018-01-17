@@ -10,7 +10,7 @@ NCITE="$(awk -vLOOKUPVAL=$HASH '$1 == LOOKUPVAL { print $2 }' < $CACHEFILE)"
 
 if [ -z $NCITE ]; then
 	NCITE="$(python $DIR/scholar.py -c 1 -t --phrase "$TITLE" | awk '/Citations [0-9]/ { print $2 }')"
-	[ -z $NCITE ] || echo "$HASH $NCITE" >> $CACHEFILE
+	[ -z $NCITE ] || echo "$HASH $NCITE $(date +%Y-%m-%d)" >> $CACHEFILE
 fi
 
 if [ -z $NCITE ]; then

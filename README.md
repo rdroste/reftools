@@ -83,5 +83,7 @@ For example, in Ubuntu
 
 Select the paper title anywhere (e.g. in a pdf document, in your browser, etc.), hit your keyboard shortcut and get the number of citations ion a pop-up window.
 
+The results are cached in *cache.txt*, so you might occasinally want to remove old entries from that file to keep the results up to date.
+
 ### Result
 <img src="https://i.imgur.com/NXXUc0d.png" width="100%">
