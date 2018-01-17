@@ -1,5 +1,11 @@
 # RefTools
 
+Tools:
+
+[CommonRefs](#CommonRefs)  
+[nCitations](#nCitations)
+
+
 ## CommonRefs
 
 Have you ever looked at your library of references and wondered: Have I missed an important publication on the topic?  
@@ -57,12 +63,12 @@ The results are written to *results.txt*
 
 ## nCitations
 
-**nCitations** allows you to quickly look up the number of citations of a paper *anywhere*!
+**nCitations** allows you to quickly look up the number of citations of a paper *anywhere*!  
 Simply select the title of the paper with your mouse and hit your preferred keyboard shortcut.
 
 ### Dependencies
 
-Install [xclip](https://github.com/astrand/xclip) to provide access to text selection from you shell.
+Install [xclip](https://github.com/astrand/xclip) to provide access to text selection from you shell.  
 For example, in Ubuntu run `sudo apt-get install xclip`.
 
 ### Preparation
