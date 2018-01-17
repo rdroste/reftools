@@ -73,10 +73,10 @@ For example, in Ubuntu run `sudo apt-get install xclip`.
 
 ### Preparation
 
-You have to set up a keyboard shortcut to execute `sh <full path to reftools folder>/ncitations.sh`.  
+You have to set up a keyboard shortcut to execute `bash <full path to reftools folder>/ncitations.sh`.  
 For example, in Ubuntu
 1. Go to `System Settings -> Keyboard -> Shortcuts`.
-2. Select `Custom Shortcuts`, add a new shortcut by clicking `+`, choose a name of your liking and enter the command from above.
+2. Select `Custom Shortcuts`, add a new shortcut by clicking `+`, choose a name and enter the command from above.
 3. Click on `Deactivated` on the right of your newly created shortcut and hit your preferred keyboard combination (e.g. `Alt + N`)
 
 ### Usage
@@ -84,4 +84,4 @@ For example, in Ubuntu
 Select the paper title anywhere (e.g. in a pdf document, in your browser, etc.), hit your keyboard shortcut and get the number of citations ion a pop-up window.
 
 ### Result
-<img src="https://i.imgur.com/ns2OF7Q.png" width="100%">
+<img src="https://i.imgur.com/NXXUc0d.png" width="100%">
