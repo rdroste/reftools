@@ -85,7 +85,7 @@ if __name__ == "__main__":
     with open('not_found.txt','w') as f:
         f.write('\n'.join(not_found))
 
-    print('\nResults:')
+    print('\nWriting results to results.txt:')
     with open('results.txt','w') as f:
         for i, title in enumerate(sorted(title_dict, key=title_dict.get, reverse=True)):
             line = '{} x {}'.format(title_dict[title], title)

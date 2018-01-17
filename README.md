@@ -78,4 +78,4 @@ For example, in Ubuntu
 Select the paper title anywhere (e.g. in a pdf document, in your browser, etc.), hit your keyboard shortcut and get the number of citations ion a pop-up window.
 
 ### Result
-<img src="https://i.imgur.com/ns2OF7Q.png" width="40%">
+<img src="https://i.imgur.com/ns2OF7Q.png" width="100%">
