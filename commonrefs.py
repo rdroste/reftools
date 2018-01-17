@@ -16,9 +16,9 @@ def get_references(DOI):
     data = requests.get(url, headers={'Accept': 'application/json'})
     data_dict = json.loads(data.text)
     try:
-        return = data_dict['abstracts-retrieval-response']['references']['reference']
+        return data_dict['abstracts-retrieval-response']['references']['reference']
     except:
-        return = []
+        return []
 
 
 def get_doi(SID):
