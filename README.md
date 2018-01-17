@@ -77,7 +77,7 @@ You have to set up a keyboard shortcut to execute `bash <full path to reftools f
 For example, in Ubuntu
 1. Go to `System Settings -> Keyboard -> Shortcuts`.
 2. Select `Custom Shortcuts`, add a new shortcut by clicking `+`, choose a name and enter the command from above.
-3. Click on `Deactivated` on the right of your newly created shortcut and hit your preferred keyboard combination (e.g. `Alt + N`)
+3. Click on `Deactivated` on the right of your newly created shortcut and hit your preferred keyboard combination (e.g. `Ctrl-Alt-N`)
 
 ### Usage
 
