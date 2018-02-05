@@ -15,7 +15,7 @@ Or, more specifically: What publications are most frequently cited in my referen
 
 ### Dependencies
 
-Install the required python packages via `pip3 install requests`
+Install the required python packages via `pip3 install requests beautifulsoup4`
 
 ### Preparation
 
