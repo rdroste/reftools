@@ -15,7 +15,7 @@ Or, more specifically: What publications are most frequently cited in my referen
 
 ### Dependencies
 
-Install the required python packages via `pip3 install requests beautifulsoup4`
+Install the required python packages via `pip3 install requests`
 
 ### Preparation
 
@@ -70,6 +70,8 @@ Simply select the title of the paper with your mouse and hit your preferred keyb
 
 Install [xclip](https://github.com/astrand/xclip) to provide access to text selection from you shell.  
 For example, in Ubuntu run `sudo apt-get install xclip`.
+
+Install the required python packages via `pip install beautifulsoup4`
 
 ### Preparation
 
